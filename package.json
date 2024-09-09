@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShakirFarhan/Realtime-Chat.git"
+    "url": "https://github.com/abhin9v9/Simplicity-Chat-App"
   },
-  "author": "Shakir Farhan",
+  "author": "Abhinav Chaudhary",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ShakirFarhan/Realtime-Chat/issues"
+    "url": "https://github.com/abhin9v9/Simplicity-Chat-App/issues"
   },
-  "homepage": "https://github.com/ShakirFarhan/Realtime-Chat#readme"
+  "homepage": "https://github.com/abhin9v9/Simplicity-Chat-App"
 }
