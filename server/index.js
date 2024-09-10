@@ -14,6 +14,7 @@ dotenv.config();
 const app = express();
 const corsConfig = {
   origin: process.env.BASE_URL,
+  methods: ["POST", "GET"],
   credentials: true,
 };
 const PORT=process.env.PORT || 8000
