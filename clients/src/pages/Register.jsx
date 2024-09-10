@@ -97,7 +97,7 @@ function Register() {
 
               <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_h9kds1my.json" background="transparent" speed="1" style={{ width: "200px", height: "160px" }} loop autoplay></lottie-player>
             </div>
-            <p style={{ display: isLoading ? "none" : "block" }} className='test-[#fff]'>Regsiter</p>
+            <p style={{ display: isLoading ? "none" : "block" }} className='test-[#fff]'>Register</p>
           </button>
           
         </form>

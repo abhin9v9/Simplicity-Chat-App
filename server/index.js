@@ -32,7 +32,7 @@ const server = app.listen(PORT, () => {
 const io = new Server.Server(server, {
   pingTimeout: 60000,
   cors: {
-    origin: 'http://localhost:3000',
+    origin: 'https://simplicity-chat-api.vercel.app',
   },
 });
 io.on('connection', (socket) => {
