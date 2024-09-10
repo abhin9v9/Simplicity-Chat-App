@@ -14,7 +14,6 @@ dotenv.config();
 const app = express();
 const corsConfig = {
   origin: process.env.BASE_URL,
-  methods: ["POST", "GET"],
   credentials: true,
 };
 const PORT=process.env.PORT || 8000
@@ -33,7 +32,7 @@ const server = app.listen(PORT, () => {
 const io = new Server.Server(server, {
   pingTimeout: 60000,
   cors: {
-    origin: 'https://simplicity-chat-api.vercel.app',
+    origin: 'http://localhost:3000',
   },
 });
 io.on('connection', (socket) => {
